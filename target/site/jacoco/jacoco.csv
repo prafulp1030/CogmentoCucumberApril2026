@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Cogmento,com.cogmento.pages,ContactPage,0,38,0,0,0,12,0,5,0,5
+Cogmento,com.cogmento.pages,LoginPage,0,26,0,0,0,8,0,3,0,3
+Cogmento,com.cogmento.pages,BasePage,0,11,0,0,0,4,0,1,0,1
+Cogmento,com.cogmento.reader,PropertyReader,14,21,0,0,5,6,0,1,0,1
+Cogmento,com.cogmento.utils,WebDriverUtils,36,33,0,0,16,13,8,7,8,7
+Cogmento,com.cogmento.utils,WebElementUtils,0,26,0,0,0,6,0,3,0,3
+Cogmento,com.cogmento.utils,DriverFactory,165,23,15,3,42,8,14,1,0,1
+Cogmento,com.cogmento.utils,DriverType,0,39,0,0,0,2,0,1,0,1
+Cogmento,com.cogmento.utils,DriverManager,3,13,0,0,2,4,1,3,1,3
+Cogmento,com.cogmento.utils,WaitUtils,0,24,0,0,0,4,0,4,0,4
+Cogmento,com.cogmento.exceptions,PropertyFileNotFound,7,0,0,0,4,0,2,0,2,0
+Cogmento,com.cogmento.exceptions,DriverException,7,0,0,0,4,0,2,0,2,0
+Cogmento,com.cogmento.base,BaseTest,0,35,0,0,0,10,0,3,0,3

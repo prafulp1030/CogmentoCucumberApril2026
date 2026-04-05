@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T09:19:42 IST" name="Suite" finished-at="2026-03-24T09:19:54 IST" duration-ms="12796">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cogmento.runner.RunnerTest@150ab4ed]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-03-24T09:19:42 IST" name="Test" finished-at="2026-03-24T09:19:54 IST" duration-ms="12796">
+      <class name="com.cogmento.runner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cogmento.runner.RunnerTest@150ab4ed]" started-at="2026-03-24T09:19:42 IST" name="setUpClass" finished-at="2026-03-24T09:19:42 IST" duration-ms="689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@28295554]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.cogmento.runner.RunnerTest@150ab4ed]" started-at="2026-03-24T09:19:42 IST" name="setup" finished-at="2026-03-24T09:19:42 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cogmento.runner.RunnerTest@150ab4ed]" started-at="2026-03-24T09:19:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-03-24T09:19:54 IST" duration-ms="12019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new contact in Contact page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Cogmento Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cogmento.runner.RunnerTest@150ab4ed]" started-at="2026-03-24T09:19:54 IST" name="tearDownClass" finished-at="2026-03-24T09:19:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cogmento.runner.RunnerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

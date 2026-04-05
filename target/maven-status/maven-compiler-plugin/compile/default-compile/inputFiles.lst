@@ -1,0 +1,16 @@
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\base\BaseTest.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\exceptions\DriverException.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\exceptions\PropertyFileNotFound.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\ihelper\IWait.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\ihelper\IWebDriver.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\ihelper\IWebElement.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\pages\BasePage.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\pages\ContactPage.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\pages\LoginPage.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\reader\PropertyReader.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\utils\DriverFactory.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\utils\DriverManager.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\utils\DriverType.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\utils\WaitUtils.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\utils\WebDriverUtils.java
+C:\Users\praf0\OneDrive\Desktop\Full Stack SDET Automation Batch 22 Nov 2025\Java Workspace\Cogmento\src\main\java\com\cogmento\utils\WebElementUtils.java

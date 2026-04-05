@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PropertyReader.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Cogmento</a> &gt; <a href="index.source.html" class="el_package">com.cogmento.reader</a> &gt; <span class="el_source">PropertyReader.java</span></div><h1>PropertyReader.java</h1><pre class="source lang-java linenums">package com.cogmento.reader;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import com.cogmento.exceptions.PropertyFileNotFound;
+
+public class PropertyReader {
+
+	private PropertyReader() {
+
+	}
+
+	public static String getProperty(String key) {
+
+<span class="fc" id="L16">		Properties prop = new Properties();</span>
+
+<span class="fc" id="L18">		String path = System.getProperty(&quot;user.dir&quot;) + &quot;\\src\\test\\resources\\qa-config.properties&quot;;</span>
+
+<span class="fc" id="L20">		try (FileInputStream fis = new FileInputStream(path)) {</span>
+
+<span class="fc" id="L22">			prop.load(fis);</span>
+
+<span class="nc" id="L24">		} catch (PropertyFileNotFound property) {</span>
+<span class="nc" id="L25">			throw new PropertyFileNotFound(&quot;Property file is not Exist on above Path&quot;);</span>
+<span class="nc" id="L26">		} catch (Exception e) {</span>
+<span class="nc" id="L27">			e.getLocalizedMessage();</span>
+<span class="nc" id="L28">		} finally {</span>
+
+<span class="pc" id="L30">		}</span>
+
+<span class="fc" id="L32">		return prop.getProperty(key);</span>
+
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

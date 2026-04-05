@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>WebDriverUtils.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Cogmento</a> &gt; <a href="index.source.html" class="el_package">com.cogmento.utils</a> &gt; <span class="el_source">WebDriverUtils.java</span></div><h1>WebDriverUtils.java</h1><pre class="source lang-java linenums">package com.cogmento.utils;
+
+import java.time.Duration;
+
+import org.openqa.selenium.Dimension;
+
+import com.cogmento.ihelper.IWebDriver;
+
+<span class="fc" id="L9">public class WebDriverUtils implements IWebDriver {</span>
+
+	@Override
+	public void get(String url) {
+<span class="fc" id="L13">		DriverManager.getDriver().get(url);</span>
+<span class="fc" id="L14">	}</span>
+
+	@Override
+	public void maximize() {
+<span class="fc" id="L18">		DriverManager.getDriver().manage().window().maximize();</span>
+<span class="fc" id="L19">	}</span>
+
+	@Override
+	public void minimize() {
+
+<span class="nc" id="L24">		DriverManager.getDriver().manage().window().minimize();</span>
+<span class="nc" id="L25">	}</span>
+
+	@Override
+	public void fullScreen() {
+
+<span class="nc" id="L30">		DriverManager.getDriver().manage().window().fullscreen();</span>
+<span class="nc" id="L31">	}</span>
+
+	@Override
+	public void setSize(Dimension dimension) {
+
+		// e.g.
+		// Dimension d = new Dimension(1200, 3000);
+
+<span class="nc" id="L39">		DriverManager.getDriver().manage().window().setSize(dimension);</span>
+<span class="nc" id="L40">	}</span>
+
+	@Override
+	public void implicitlyWait(Duration duration) {
+
+<span class="fc" id="L45">		DriverManager.getDriver().manage().timeouts().implicitlyWait(duration);</span>
+<span class="fc" id="L46">	}</span>
+
+	@Override
+	public void pageLoadTimeout(Duration duration) {
+
+<span class="fc" id="L51">		DriverManager.getDriver().manage().timeouts().pageLoadTimeout(duration);</span>
+<span class="fc" id="L52">	}</span>
+
+	@Override
+	public void close() {
+
+<span class="nc" id="L57">		DriverManager.getDriver().close();</span>
+<span class="nc" id="L58">	}</span>
+
+	@Override
+	public void quit() {
+
+<span class="fc" id="L63">		DriverManager.getDriver().quit();</span>
+<span class="fc" id="L64">	}</span>
+
+	@Override
+	public void back() {
+
+<span class="nc" id="L69">		DriverManager.getDriver().navigate().back();</span>
+<span class="nc" id="L70">	}</span>
+
+	@Override
+	public void forward() {
+
+<span class="nc" id="L75">		DriverManager.getDriver().navigate().forward();</span>
+<span class="nc" id="L76">	}</span>
+
+	@Override
+	public void refresh() {
+
+<span class="nc" id="L81">		DriverManager.getDriver().navigate().refresh();</span>
+<span class="nc" id="L82">	}</span>
+
+	@Override
+	public void to(String url) {
+
+<span class="nc" id="L87">		DriverManager.getDriver().navigate().to(url);</span>
+<span class="nc" id="L88">	}</span>
+
+	@Override
+	public void deleteAllCookies() {
+
+<span class="fc" id="L93">		DriverManager.getDriver().manage().deleteAllCookies();</span>
+<span class="fc" id="L94">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

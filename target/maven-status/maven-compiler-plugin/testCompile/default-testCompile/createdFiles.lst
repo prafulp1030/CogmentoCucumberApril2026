@@ -1,0 +1,5 @@
+com\cogmento\hooks\Hooks.class
+com\cogmento\steps\TextContext.class
+com\cogmento\runner\RunnerTest.class
+com\cogmento\steps\LoginStep.class
+com\cogmento\steps\ContactPageStep.class
