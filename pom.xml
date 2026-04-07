@@ -23,6 +23,9 @@
 		<sonar.projectName>Cogmento</sonar.projectName>
 		<sonar.login>sqa_a1ac84468c289fc85385281135336463e3f60d95</sonar.login>
 
+		
+
+		
 	</properties>
 
 	<dependencies>
