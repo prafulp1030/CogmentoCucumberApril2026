@@ -6,6 +6,11 @@ public class Demo3 {
 		
 		
 		System.out.println("Suraj TC 3");
+		System.out.println("Suraj TC 3");
+		
+		
+		System.out.println("Suraj TC 3");
+
 	}
 
 }
