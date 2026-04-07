@@ -21,8 +21,11 @@
 		<sonar.tests>src/test/java</sonar.tests>
 		<sonar.keyName>Cogmento</sonar.keyName>
 		<sonar.projectName>Cogmento</sonar.projectName>
-		<sonar.login>squ_b75010a014c04a6dd631ddb0f38d2aa3863366eb</sonar.login>
+		<sonar.login>sqa_a1ac84468c289fc85385281135336463e3f60d95</sonar.login>
 
+		
+
+		
 	</properties>
 
 	<dependencies>
