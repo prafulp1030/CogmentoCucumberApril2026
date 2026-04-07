@@ -21,7 +21,7 @@
 		<sonar.tests>src/test/java</sonar.tests>
 		<sonar.keyName>Cogmento</sonar.keyName>
 		<sonar.projectName>Cogmento</sonar.projectName>
-		<sonar.login>squ_b75010a014c04a6dd631ddb0f38d2aa3863366eb</sonar.login>
+		<sonar.login>sqa_11083517b4c8bfa555f225a3ce0eeb5780b69a5c</sonar.login>
 
 	</properties>
 
@@ -152,7 +152,7 @@
 				<version>3.5.3</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/xmlfiles/testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
