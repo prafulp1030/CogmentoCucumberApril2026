@@ -29,6 +29,7 @@ public class RunnerTest extends AbstractTestNGCucumberTests {
 
 		System.setProperty("browserName", browserName);
 
+		
 	}
 
 }
